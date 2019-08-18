@@ -5,7 +5,7 @@
 // @homepageURL  https://github.com/zoidy/filebrowser-streamlink/
 // @updateURL    https://github.com/zoidy/filebrowser-streamlink/raw/master/filebrowser-stream-link.user.js
 // @downloadURL  https://github.com/zoidy/filebrowser-streamlink/raw/master/filebrowser-stream-link.user.js
-// @version      0.1
+// @version      0.2
 // @description  Add a button to Filebrowser to more easily generate a network streaming link for playing in an external player.
 // @author       Zoidy
 // @grant        none
@@ -58,7 +58,7 @@
         //***get the item selected in the UI
 
         //get the selected row item. If there are multiple selected, pick the first one
-        var selecteditems=document.querySelectorAll("div.item[aria-selected='true'");
+        var selecteditems=document.querySelectorAll("div.item[aria-selected='true']");
         if(selecteditems.length>0){
             var item=selecteditems[0];
             var filename=encodeURI(item.getAttribute("aria-label"));
@@ -115,7 +115,7 @@
         var m3utext="#EXTM3U\n"+link
 
         var element = document.createElement('a');
-        element.setAttribute('href', 'data:text/plain;charset=utf-8,' + encodeURIComponent(m3utext));
+        element.setAttribute('href', 'data:application/octet-stream;charset=utf-8,' + encodeURIComponent(m3utext));
         element.setAttribute('download', decodeURIComponent(filename)+".m3u8");
 
         element.style.display = 'none';
