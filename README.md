@@ -9,6 +9,7 @@ This userscript adds a button to filebrowser (https://github.com/filebrowser/fil
 
 ## Install
 1. You must have the [Tampermonkey](https://www.tampermonkey.net) extension installed in your browser. It will probably work with Greasemonkey too.
-1. [Install](https://github.com/zoidy/filebrowser-streamlink/raw/master/filebrowser-stream-link-user.js) this userscript. 
-1. **Important: Add whatever domain you're running Filebrowser on to the User Includes section in Tampermonkey!**  Example: `https://example.com:8383/*`
+1. [Install](https://github.com/zoidy/filebrowser-streamlink/raw/master/filebrowser-stream-link.user.js) this userscript. 
+1. **Important: Add whatever domain you're running Filebrowser on to the User Includes section in Tampermonkey!**  Example: `https://example.com:8383/*` <br><br>
+<img src="https://github.com/zoidy/filebrowser-streamlink/raw/master/screenshot2.png" width="300px"></img>
 
