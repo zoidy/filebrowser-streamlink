@@ -3,10 +3,10 @@
 // @copyright    2019+, Zoidy (MIT Licensed)
 // @namespace    https://github.com/zoidy/
 // @homepageURL  https://github.com/zoidy/filebrowser-streamlink/
-// @updateURL    https://github.com/zoidy/filebrowser-streamlink/raw/master/filebrowser-stream-link-user.js
-// @downloadURL  https://github.com/zoidy/filebrowser-streamlink/raw/master/filebrowser-stream-link-user.js
+// @updateURL    https://github.com/zoidy/filebrowser-streamlink/raw/master/filebrowser-stream-link.user.js
+// @downloadURL  https://github.com/zoidy/filebrowser-streamlink/raw/master/filebrowser-stream-link.user.js
 // @version      0.1
-// @description  Add a button to filebrowser (https://github.com/filebrowser/filebrowser) to more easily generate a network streaming link for playing in an external player
+// @description  Add a button to Filebrowser to more easily generate a network streaming link for playing in an external player.
 // @author       Zoidy
 // @grant        none
 // ==/UserScript==
